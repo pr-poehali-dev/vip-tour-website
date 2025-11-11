@@ -38,7 +38,7 @@ const Index = () => {
     {
       icon: "Plane",
       title: "VIP Туризм",
-      description: "Эксклюзивные путешествия по всему миру с персональным сервисом"
+      description: "Эксклюзивные путешествия по России с персональным сервисом"
     },
     {
       icon: "Sparkles",
@@ -80,7 +80,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-xl border-b border-gray-100 z-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="text-2xl font-semibold tracking-tight">PRESTIGE</div>
+            <div className="text-2xl font-semibold tracking-tight">KAIROS</div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-sm font-medium hover:text-accent transition-colors">Главная</a>
               <a href="#services" className="text-sm font-medium hover:text-accent transition-colors">Услуги</a>
@@ -98,7 +98,7 @@ const Index = () => {
               Эксклюзивный<br />опыт класса люкс
             </h1>
             <p className="text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 font-light">
-              Организация VIP-туризма, премиальных мероприятий и частных вечеринок мирового уровня
+              Организация VIP-туризма, премиальных мероприятий и частных вечеринок по России
             </p>
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full">
               Обсудить проект
@@ -209,7 +209,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-center md:text-left">
-              <div className="text-2xl font-semibold mb-2">PRESTIGE</div>
+              <div className="text-2xl font-semibold mb-2">KAIROS</div>
               <p className="text-sm opacity-80">© 2025 Все права защищены</p>
             </div>
             
