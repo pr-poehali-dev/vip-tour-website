@@ -5,6 +5,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 import { useToast } from '@/hooks/use-toast';
+import { QRCodeSVG } from 'qrcode.react';
 
 const Index = () => {
   const { toast } = useToast();
@@ -206,6 +207,19 @@ const Index = () => {
               Отправить сообщение
             </Button>
           </form>
+
+          <div className="mt-16 flex flex-col items-center">
+            <h3 className="text-2xl font-semibold mb-4 text-center">Быстрый переход</h3>
+            <p className="text-muted-foreground mb-6 text-center">Отсканируйте QR-код для перехода на сайт</p>
+            <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100">
+              <QRCodeSVG 
+                value={window.location.href}
+                size={200}
+                level="H"
+                includeMargin={true}
+              />
+            </div>
+          </div>
         </div>
       </section>
 
