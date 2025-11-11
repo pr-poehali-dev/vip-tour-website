@@ -72,6 +72,10 @@ const Index = () => {
     {
       url: "https://cdn.poehali.dev/files/af588b75-e12a-49b0-89d6-173da862e2b0.jpg",
       alt: "Эксклюзивная вилла с бассейном"
+    },
+    {
+      url: "https://cdn.poehali.dev/files/cfd5eca5-d48c-47dd-8cf6-036c1fb95df0.jpg",
+      alt: "Элитная охота"
     }
   ];
 
